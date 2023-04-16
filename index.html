@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ask Me Anything</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Ask Me Anything</h1>
+    <!-- Add a default response container with an initial response -->
+    <div id="responseContainer">
+        <p id="response">Welcome! Ask me anything.</p>
+    </div>
+    
+    <!-- Update the questionForm to include a label for better UX -->
+    <form id="questionForm">
+        <label for="questionInput">Your question:</label>
+        <input type="text" id="questionInput" placeholder="Ask your question" />
+        <button type="submit">Send</button>
+    </form>
+    <div id="feedbackForm">
+      <h3>Was the response human or artificial?</h3>
+      <input type="radio" name="feedback" id="humanFeedback" value="human" />
+      <label for="humanFeedback">Human</label>
+      <input type="radio" name="feedback" id="artificialFeedback" value="artificial" />
+      <label for="artificialFeedback">Artificial</label>
+      <br />
+      <label for="ageInput">Your age:</label>
+      <input type="number" id="ageInput" />
+      <br />
+      <button type="button" id="feedbackSubmit">Submit</button>
+    </div>
+    <p id="thankYouMessage">Thank you for engaging with our research!</p>
+    <button type="button" id="referFriendButton">Refer a Friend</button>
+    <button type="button" id="restartButton">Restart</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

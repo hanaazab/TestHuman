@@ -1,0 +1,44 @@
+/* styles.css */
+
+/* Center align the app container */
+#app {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Add some spacing between elements */
+  h1, #thankYouMessage {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input, button {
+    margin-bottom: 10px;
+  }
+  
+  /* Hide the feedback form initially */
+  #feedbackForm {
+    display: none;
+  }
+  
+  /* Center align the feedback form elements */
+  #feedbackForm h3, #feedbackForm input, #feedbackForm label, #feedbackForm button {
+    margin: 10px auto;
+    display: block;
+  }
+  
+  /* Center align the thank you message */
+  #thankYouMessage {
+    text-align: center;
+  }
+  
+  /* Center align the refer friend and restart buttons */
+  #referFriendButton, #restartButton {
+    margin: 0 auto;
+    display: block;
+  }
+  
